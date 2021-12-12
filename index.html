@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <section class="make-order">
+      <header class="header">
+         <button id="go-back">
+            <div class="arrow-in-circe"></div>
+            <label for="go-back" class="go-back">Продолжить выбор</label>
+         </button>
+         <p class="contact-info">
+            <span class="phone-description"> Наш телефон </span>
+            <span class="phone-number">+996 705 188 955</span>
+            <span class="phone-number">+996 555 188 955</span>
+            <span class="work-hours">
+               <img src="/img/clock.png" alt="clock">
+               работаем с 10:00 до 00:00
+            </span>
+         </p>
+      </header>
+
+      <div class="form-wrapper">
+         <h2>Ваши данные</h2>
+         <form class="form">
+            <div class="first-column">
+               <div class="input">
+                  <input type="tel" placeholder="Телефон" class="basic-input tel-input">
+                  <input type="text" placeholder="Имя" class="basic-input">
+               </div>
+
+               <div class="radio-group">
+                  <div class="radio-group-item">
+                     <input class="radio-item" id="cash" type="radio" name="radio" value="cash" checked>
+                     <label class="basic-input radio-input right" for="cash"> <img src="/img/cash.svg" alt="cash">
+                        Наличными</label>
+                  </div>
+
+                  <div class="radio-group-item">
+                     <input class="radio-item" id="card" type="radio" name="radio" value="card">
+                     <label class="basic-input radio-input left" for="card"> <img src="/img/card.svg" alt="card">
+                        Картой</label>
+                  </div>
+               </div>
+
+               <div class="check-change">
+                  <input class="change" type="checkbox" name="change" id="change">
+                  <label class="label basic-input" for="change">Подготовить сдачу с</label>
+                  <input class="change-number basic-input" type="tel" placeholder="Сумма">
+               </div>
+               <div class="order-comments">
+                  <input class="basic-input" type="text" placeholder="Комменатрий к заказу">
+               </div>
+
+               <div class="additional-options-counter">
+                  <span class="additional-options basic-input">Палочки + соусник обычные</span>
+                  <div class="counter">
+                     <button class="min">-</button>
+                     <input class="basic-input number" type="tel" placeholder="10" disabled>
+                     <button class="plus">+</button>
+                  </div>
+               </div>
+               <div class="additional-options-counter">
+                  <span class="additional-options basic-input">Палочки + соусник обычные</span>
+                  <div class="counter">
+                     <button class="min">-</button>
+                     <input class="basic-input number" type="tel" placeholder="10" disabled>
+                     <button class="plus">+</button>
+                  </div>
+               </div>
+
+               <div class="order-comments promo">
+                  <input class="basic-input" type="text" placeholder="Комменатрий к заказу">
+               </div>
+
+            </div>
+
+            <div class="second-column">
+               <div class="radio-group">
+                  <div class="radio-group-item">
+                     <input class="radio-item" id="cash" type="radio" name="radio" value="cash" checked>
+                     <label class="basic-input radio-input right" for="cash">
+                        Курьером</label>
+                  </div>
+
+                  <div class="radio-group-item">
+                     <input class="radio-item" id="card" type="radio" name="radio" value="card">
+                     <label class="basic-input radio-input left" for="card">
+                        Самовывоз</label>
+                  </div>
+               </div>
+
+            </div>
+
+         </form>
+      </div>
+   </section>
+
+</body>
+
+</html>
